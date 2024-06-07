@@ -1,7 +1,9 @@
-.rodape {
-    background: var(--gray-1);
+.footer__container {
     display: flex;
+    height: 6.375rem;
+    flex-direction: column;
     justify-content: center;
-    padding: 2% 0;
     align-items: center;
+    gap: 0.625rem;
+    background: var(--gray-1, #191C1F);
   }
