@@ -1,0 +1,31 @@
+.about--backgroud {
+  width: 100%;
+  background: var(--gray-1);
+  height: 280px;
+  display: flex;
+  justify-content: center;
+  padding-block: 30px;
+  padding: clamp(1rem, -0.25rem + 3.333vw, 2.75rem);
+}
+
+.about__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: var(--width-max);
+
+}
+
+.about__title {
+  color: var(--gray-6);
+  font-size: var(--title2-font-size);
+  font-weight: var(--title2-font-weight);
+  line-height: var(--title2-line-height);
+  width: 35%;
+}
+
+.about__description {
+  width: 52%;
+  color: var(--gray-5);
+
+}

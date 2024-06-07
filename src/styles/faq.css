@@ -1,0 +1,21 @@
+.faq__right-list{
+    padding-inline: clamp(1rem, -0.25rem + 3.333vw, 2.75rem);
+  }
+  
+  .faq__content {
+    max-width: var(--width-max);
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 5% 0;
+    position: relative;
+  }
+  
+  .faq__left-content {
+    width: 100%;
+    margin-top: 1.8rem;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }

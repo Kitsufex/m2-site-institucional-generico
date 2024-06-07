@@ -1,21 +1,17 @@
-function modalRegister(){
-    const modal = document.querySelector("#modalController");
-    const button = document.querySelectorAll(".showModal");
-    for(let i = 0; i <= button.length; i++){
-    button[i].addEventListener("click", () => {
-        modal.showModal();
-        closeModal()
-        
-    });
-  }
-  }
-  
-  function closeModal(){
-    const button = document.querySelector(".closeModal");
-    const modal = document.querySelector("#modalController");
-    button.addEventListener("click", () => {
-        modal.close();
+function handleModalUser() {
+    const buttons = document.querySelectorAll('.button_modal');
+
+    const modalController = document.querySelector('#modal');
+    const close = document.querySelector('.modal_close')
+
+    for (let i = 0; i < buttons.length; i++) {
+        buttons[i].addEventListener('click', function () {
+            modalController.showModal();
+        })
+    }
+    close.addEventListener('click', function () {
+        modalController.close();
     })
-  }
-  
-  modalRegister()
+}
+
+handleModalUser()
