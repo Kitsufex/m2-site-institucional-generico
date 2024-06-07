@@ -1,0 +1,62 @@
+.faq__right-list{
+    padding-inline: clamp(1rem, -0.25rem + 3.333vw, 2.75rem);
+  }
+  
+  .faq__content {
+    max-width: var(--width-max);
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 5% 0;
+    position: relative;
+  }
+  
+  .faq__left-content {
+    width: 100%;
+    margin-top: 1.8rem;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .faq__left {
+    height: 35%;
+    width: 45%;
+    position: sticky;
+    top: 180px;
+  }
+  
+  .faq__left-title {
+    color: var(--gray-6);
+    font-size: var(--title2-font-size);
+    font-weight: var(--title2-font-weight);
+    line-height: var(--title2-line-height);
+    margin-block: 3%;
+  }
+  
+  .faq__left-button {
+    padding: 2rem;
+    background: var(--brand-1);
+    border: none;
+    color: var(--gray-6);
+    font-size: var(--text4-font-size);
+    cursor: pointer;
+    width: 60%;
+  }
+  
+  .faq__right {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    gap: 60px;
+  }
+  
+  .faq__right-title {
+    color: var(--gray-6);
+    text-align: center;
+    font-size: var(--title3-font-size);
+    font-weight: var(--title3-font-weight);
+    line-height: var(--title3-line-height);
+  
+  }

@@ -18,7 +18,7 @@ li {
   text-decoration: none;
   font-size: inherit;
   font-weight: normal;
-  color: inherit;  
+  color: inherit;
 }
 
 li {
@@ -30,7 +30,7 @@ button {
   border: none;
 }
 
-dialog{
+dialog {
   border: none;
   padding: 0;
   box-sizing: border-box;

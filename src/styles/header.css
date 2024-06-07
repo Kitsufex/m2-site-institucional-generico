@@ -1,0 +1,29 @@
+header {
+    width: 100%;
+    border-bottom: 2px solid var(--brand-1);
+    background: var(--gray-1);
+    position: fixed;
+    top: 0;
+    z-index: 1;
+  }
+  
+  .header__content {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0 auto;
+    padding-block: 20px;
+  }
+  
+  .header__button--tranparent {
+    height: 4rem;
+    width: clamp(17rem, 16.286rem + 1.905vw, 18rem);
+    padding: 20px 32px;
+    border: 1px solid var(--gray-7);
+    background: var(--gray-1);
+    color: var(--gray-7);
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+  }
